@@ -1,0 +1,82 @@
+#map { height: 600px; width:1000px; display:inline-block; }
+
+#overlapping {
+	width:355px;
+	float:right;
+	font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+	font-size:10pt;
+}
+
+.twitter-timeline {float: left}
+
+#addresses {
+	font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+	font-size:10pt;
+	float:left;
+}
+
+
+
+
+table {
+  background-color: transparent;
+    border-collapse: collapse;
+}
+caption {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #777777;
+  text-align: left;
+}
+th {
+  text-align: left;
+}
+.table {
+
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+
+.table > tbody + tbody {
+  border-top: 2px solid #dddddd;
+}
+.table .table {
+  background-color: #ffffff;
+}
+.table-condensed > thead > tr > th,
+.table-condensed > tbody > tr > th,
+.table-condensed > tfoot > tr > th,
+.table-condensed > thead > tr > td,
+.table-condensed > tbody > tr > td,
+.table-condensed > tfoot > tr > td {
+  padding: 5px;
+}
+.table-bordered {
+  border: 1px solid #dddddd;
+}
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+  border: 1px solid #dddddd;
+}
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td {
+  border-bottom-width: 2px;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
